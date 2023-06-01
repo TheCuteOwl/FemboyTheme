@@ -1,0 +1,133 @@
+/**
+ * @name BetterPriscord
+ * @description Customized Discord theme based on PrismLauncher's Priscord theme.
+ * @version 0.1.0
+ * @author [Your Name]
+ * @website [Your Website]
+ * @source [Your CSS URL]
+ */
+
+/* MAIN BACKGROUND */
+.app {
+  background-image: url('https://example.com/background-image.jpg');
+  background-size: cover;
+}
+
+/* CHAT AREA BACKGROUND */
+.chat-3bRxxu {
+  background-color: rgba(21, 24, 28, 0.91);
+}
+
+/* MESSAGE BACKGROUND */
+.message-2qnXI6 {
+  background-color: rgba(33, 36, 43, 0.57);
+}
+
+/* MESSAGE AUTHOR NAME COLOR */
+.message-2qnXI6 .header-23xsNx {
+  color: #ffffff;
+}
+
+/* MESSAGE CONTENT COLOR */
+.message-2qnXI6 .markup-2BOw-j {
+  color: #ffffff;
+}
+
+/* MESSAGE TIMESTAMP COLOR */
+.message-2qnXI6 .timestamp-3ZCmNB {
+  color: #e0e0e0;
+}
+
+/* CHANNELS LIST BACKGROUND */
+.sidebar-2K8pFh {
+  background-color: #21242b90;
+}
+
+/* CHANNELS LIST ITEM COLOR */
+.sidebar-2K8pFh .name-3_Dsmg {
+  color: #ffffff;
+}
+
+/* CHANNELS LIST ITEM HOVER COLOR */
+.sidebar-2K8pFh .name-3_Dsmg:hover {
+  color: #e0e0e0;
+}
+
+/* USER LIST BACKGROUND */
+.membersWrap-2h-GB4 {
+  background-color: #21242b90;
+}
+
+/* USER LIST USERNAME COLOR */
+.membersWrap-2h-GB4 .nameTag-m8r81H {
+  color: #ffffff;
+}
+
+/* USER LIST USERNAME HOVER COLOR */
+.membersWrap-2h-GB4 .nameTag-m8r81H:hover {
+  color: #e0e0e0;
+}
+
+/* USER LIST STATUS ICON COLOR */
+.membersWrap-2h-GB4 .avatar-1BDn8e:after {
+  background-color: #754C9490;
+}
+
+/* USER LIST STATUS ICON HOVER COLOR */
+.membersWrap-2h-GB4 .avatar-1BDn8e:hover:after {
+  background-color: #e0e0e0;
+}
+
+/* SERVER NAME COLOR */
+.guildIcon-3CWBqJ .acronym-1iTMF-,
+.headerText-1-kAdW {
+  color: #ffffff;
+}
+
+/* SERVER NAME HOVER COLOR */
+.guildIcon-3CWBqJ .acronym-1iTMF-:hover,
+.headerText-1-kAdW:hover {
+  color: #e0e0e0;
+}
+
+/* MENTION HIGHLIGHT BACKGROUND */
+.divider-3FBTu8,
+.mention-2KCpZ8 {
+  background-color: rgba(255, 152, 205, 0.5);
+}
+
+/* MENTION HIGHLIGHT TEXT COLOR */
+.mention-2KCpZ8 .mentionInner-3bC2p9 {
+  color: #ffffff;
+}
+
+/* SCROLLBAR STYLING */
+/* These styles apply to the channel and user lists */
+.scroller-2FKFPG {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 152, 205, 0.7) rgba(0, 0, 0, 0.4);
+}
+
+.scroller-2FKFPG::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroller-2FKFPG::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 152, 205, 0.7);
+  border-radius: 4px;
+}
+
+/* Create/Join Server */
+.text-PdAsFQ,
+.defaultColor-1EVLSt {
+  color: #ffffff;
+}
+
+.container-1Lk8p7,
+.footer-31IekZ {
+  background-color: #15181c;
+}
+
+.sampleLink-5BWNy9 {
+  color: hsl(214, 46%, 67%);
+}
