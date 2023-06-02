@@ -21,11 +21,11 @@
 :root,
 .theme-dark,
 .theme-light {
-	--background-primary: #15181ce7;	/* Solid Colour; #15181c | Default is now translucent */
-	--background-secondary: #21242b90;
-	--background-secondary-alt: #21242b;
+	--background-primary: #fef9fb;	/* Light Pink */
+	--background-secondary: #fef9fb;
+	--background-secondary-alt: #fef9fb;
 	--background-tertiary: transparent;
-	--background-accent: #e0e0e0;
+	--background-accent: #b0e0ff;	/* Light Blue */
     --background-floating: #754C9490;
 	--text-normal: #ffffff;
 	--text-link: hsl(214, 46%, 67%);
@@ -45,7 +45,7 @@
   min-height: 50px;
 }
 .homeIcon-r0w4ny {
-	background-color: #15181c;
+	background-color: #fef9fb;	/* Light Pink */
 }
 
 
@@ -60,8 +60,8 @@
 	color: #ffffff;
 }
 .container-1Lk8p7, .footer-31IekZ {
-	background-color: #15181c;
+	background-color: #fef9fb;	/* Light Pink */
 }
 .sampleLink-5BWNy9 {
-	color: hsl(214, 46%, 67%);
+	color: #b0e0ff;	/* Light Blue */
 }
