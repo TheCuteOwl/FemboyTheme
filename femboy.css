@@ -31,8 +31,10 @@
     --text-link: hsl(214, 46%, 67%); /* Original link color */
     --header-primary: #000000; /* Black header color */
     --header-secondary: #000000; /* Black secondary header color */
-    /* Icons & Banners */
+    --priscord-home-icon: url(https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/logo.svg);
+    --background-image: url('https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/background/prism-background.svg');
 }
+
 
 .homeIcon-r0w4ny path {
 	fill: transparent;
