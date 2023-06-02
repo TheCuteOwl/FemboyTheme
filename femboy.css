@@ -27,13 +27,13 @@
 	--background-tertiary: transparent;
 	--background-accent: #b0e0ff;	/* Light Blue */
     --background-floating: #754C9490;
-	--text-normal: #ffffff;
+	--text-normal: #000000;	/* Black */
 	--text-link: hsl(214, 46%, 67%);
 	--header-primary: #ffffff;
 	--header-secondary: #ffffff;
 	/* Icons & Banners */
 	--priscord-home-icon: url(https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/logo.svg);
-	--background-image: url('https://www.solidbackgrounds.com/images/1920x1080/1920x1080-light-pink-solid-color-background.jpg');
+	--background-image: url('https://www.solidbackgrounds.com/images/1920x1080/1920x1080-pale-pink-solid-color-background.jpg');
 }
 
 .homeIcon-r0w4ny path {
