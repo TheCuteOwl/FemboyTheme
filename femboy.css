@@ -45,28 +45,25 @@
 	fill: transparent;
 }
 .homeIcon-r0w4ny {
-  background: var(--priscord-home-icon) center/cover no-repeat;
-  min-width: 50px;
-  min-height: 50px;
+	background-color: #FFD9E5; /* Example femboy color */
 }
-.homeIcon-r0w4ny {
-	background-color: #15181c;
-}
-
 
 /* Scroller Borders */
 .scroller-1bVxF5 {
-	border: 3px solid #202225;
+	border: 3px solid #FFD9E5; /* Example femboy color */
 }
-
 
 /* Create/Join Server */
-.text-PdAsFQ, .defaultColor-1EVLSt {
-	color: #ffffff;
+.text-PdAsFQ,
+.defaultColor-1EVLSt {
+	color: #000000; /* Black text color */
 }
-.container-1Lk8p7, .footer-31IekZ {
-	background-color: #15181c;
+
+.container-1Lk8p7,
+.footer-31IekZ {
+	background-color: #FFD9E5; /* Example femboy color */
 }
+
 .sampleLink-5BWNy9 {
-	color: hsl(214, 46%, 67%);
+	color: hsl(214, 46%, 67%); /* Original link color */
 }
