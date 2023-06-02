@@ -65,3 +65,15 @@
 .sampleLink-5BWNy9 {
 	color: #ffb7e2; /* Light Pink */
 }
+
+/* Text Input Bar */
+.channelTextArea-2ACwbY textarea {
+	background-color: #f9d3ea; /* Light Pink */
+	border: 1px solid #e3a1c2; /* Lighter Pink */
+	color: #000000;
+}
+
+.channelTextArea-2ACwbY textarea:focus {
+	border-color: #ffb7e2; /* Light Pink */
+	box-shadow: 0 0 0 2px #ffb7e2; /* Light Pink */
+}
