@@ -21,14 +21,14 @@
 :root,
 .theme-dark,
 .theme-light {
-	--background-primary: #f9d3ea; /* Light Pink */
-	--background-secondary: #f9d3ea;
-	--background-secondary-alt: #f9d3ea;
+	--background-primary: #f5e5f6; /* Light Lavender */
+	--background-secondary: #f5e5f6;
+	--background-secondary-alt: #f5e5f6;
 	--background-tertiary: transparent;
-	--background-accent: #ffa3d2; /* Light Blue */
-	--background-floating: #754C9490;
+	--background-accent: #ffb7e2; /* Light Pink */
+	--background-floating: rgba(117, 76, 148, 0.56);
 	--text-normal: #000000; /* Black */
-	--text-link: hsl(214, 46%, 67%);
+	--text-link: #e682b4; /* Lighter Pink */
 	--header-primary: #ffffff;
 	--header-secondary: #ffffff;
 	/* Icons & Banners */
@@ -45,7 +45,7 @@
 	min-height: 50px;
 }
 .homeIcon-r0w4ny {
-	background-color: #f9d3ea; /* Light Pink */
+	background-color: #f5e5f6; /* Light Lavender */
 }
 
 /* Scroller Borders */
@@ -60,8 +60,8 @@
 }
 .container-1Lk8p7,
 .footer-31IekZ {
-	background-color: #f9d3ea; /* Light Pink */
+	background-color: #f5e5f6; /* Light Lavender */
 }
 .sampleLink-5BWNy9 {
-	color: #ffa3d2; /* Light Blue */
+	color: #ffb7e2; /* Light Pink */
 }
