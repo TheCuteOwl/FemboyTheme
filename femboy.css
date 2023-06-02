@@ -21,12 +21,12 @@
 :root,
 .theme-dark,
 .theme-light {
-	--background-primary: #FFD9E5;	/* Exemple de couleur femboy ; #FFD9E5 | La valeur par défaut est maintenant translucide */
-	--background-secondary: #FFD9E5;
-	--background-secondary-alt: #FFD9E5;
+	--background-primary: #15181ce7;	/* Solid Colour; #15181c | Default is now translucent */
+	--background-secondary: #21242b90;
+	--background-secondary-alt: #21242b;
 	--background-tertiary: transparent;
-	--background-accent: #FFD9E5;
-    --background-floating: #FFD9E5;
+	--background-accent: #e0e0e0;
+    --background-floating: #754C9490;
 	--text-normal: #ffffff;
 	--text-link: hsl(214, 46%, 67%);
 	--header-primary: #ffffff;
@@ -40,25 +40,27 @@
 	fill: transparent;
 }
 .homeIcon-r0w4ny {
-	background: var(--priscord-home-icon) center/cover no-repeat;
-	min-width: 50px;
-	min-height: 50px;
+  background: var(--priscord-home-icon) center/cover no-repeat;
+  min-width: 50px;
+  min-height: 50px;
 }
 .homeIcon-r0w4ny {
-	background-color: #FFD9E5;
+	background-color: #15181c;
 }
+
 
 /* Scroller Borders */
 .scroller-1bVxF5 {
 	border: 3px solid #202225;
 }
 
+
 /* Create/Join Server */
 .text-PdAsFQ, .defaultColor-1EVLSt {
 	color: #ffffff;
 }
 .container-1Lk8p7, .footer-31IekZ {
-	background-color: #FFD9E5;
+	background-color: #15181c;
 }
 .sampleLink-5BWNy9 {
 	color: hsl(214, 46%, 67%);
