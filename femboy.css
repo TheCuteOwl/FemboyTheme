@@ -21,49 +21,45 @@
 :root,
 .theme-dark,
 .theme-light {
-    --background-primary: #FFD9E5;    /* Example femboy color */
-    --background-secondary: #FFD9E5; /* Example femboy color */
-    --background-secondary-alt: #FFD9E5; /* Example femboy color */
-    --background-tertiary: transparent;
-    --background-accent: #FFD9E5; /* Example femboy color */
-    --background-floating: #FFD9E5; /* Example femboy color */
-    --text-normal: #000000; /* Black text color */
-    --text-link: hsl(214, 46%, 67%); /* Original link color */
-    --header-primary: #000000; /* Black header color */
-    --header-secondary: #000000; /* Black secondary header color */
-    --priscord-home-icon: url(https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/logo.svg);
-    --background-image: url('https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/background/prism-background.svg');
+	--background-primary: #FFD9E5;	/* Exemple de couleur femboy ; #FFD9E5 | La valeur par défaut est maintenant translucide */
+	--background-secondary: #FFD9E5;
+	--background-secondary-alt: #FFD9E5;
+	--background-tertiary: transparent;
+	--background-accent: #FFD9E5;
+    --background-floating: #FFD9E5;
+	--text-normal: #ffffff;
+	--text-link: hsl(214, 46%, 67%);
+	--header-primary: #ffffff;
+	--header-secondary: #ffffff;
+	/* Icons & Banners */
+	--priscord-home-icon: url(https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/logo.svg);
+	--background-image: url('https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/background/prism-background.svg');
 }
-
 
 .homeIcon-r0w4ny path {
 	fill: transparent;
 }
-
-.sidebar-2K8pFh {
-    background-color: #FFD9E5; /* Exemple de couleur femboy */
-}
-
 .homeIcon-r0w4ny {
-	background-color: #FFD9E5; /* Example femboy color */
+	background: var(--priscord-home-icon) center/cover no-repeat;
+	min-width: 50px;
+	min-height: 50px;
+}
+.homeIcon-r0w4ny {
+	background-color: #FFD9E5;
 }
 
 /* Scroller Borders */
 .scroller-1bVxF5 {
-	border: 3px solid #FFD9E5; /* Example femboy color */
+	border: 3px solid #202225;
 }
 
 /* Create/Join Server */
-.text-PdAsFQ,
-.defaultColor-1EVLSt {
-	color: #000000; /* Black text color */
+.text-PdAsFQ, .defaultColor-1EVLSt {
+	color: #ffffff;
 }
-
-.container-1Lk8p7,
-.footer-31IekZ {
-	background-color: #FFD9E5; /* Example femboy color */
+.container-1Lk8p7, .footer-31IekZ {
+	background-color: #FFD9E5;
 }
-
 .sampleLink-5BWNy9 {
-	color: hsl(214, 46%, 67%); /* Original link color */
+	color: hsl(214, 46%, 67%);
 }
