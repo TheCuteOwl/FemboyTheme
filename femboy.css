@@ -8,7 +8,7 @@
 	* @patreon https://patreon.com/Lylythii
 	* @source https://github.com/TheCuteOwl/FemboyTheme/edit/main/femboy.css
 	* @updateUrl https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Priscord/Priscord.theme.css
-  * Based of Priscord
+	* Based on Priscord
 */
 
 /*
@@ -21,29 +21,27 @@
 	background-size: var(--background-image-size, cover);
 }
 
-/* ToDo: Separate themes for Light & Dark Prism colour schemes? */
+/* ToDo: Separate themes for Light & Dark Prism color schemes? */
 :root,
 .theme-dark,
 .theme-light {
-    --background-primary: #FFD9E5;    /* Solid Colour; #FFD9E5 | Example femboy color */
-    --background-secondary: #FCE4EC;
-    --background-secondary-alt: #FCE4EC;
+    --background-primary: #FFD9E5;    /* Example femboy color */
+    --background-secondary: #FFD9E5; /* Example femboy color */
+    --background-secondary-alt: #FFD9E5; /* Example femboy color */
     --background-tertiary: transparent;
-    --background-accent: #F5F5F5;
-    --background-floating: #FFD9E5;
-    --text-normal: #000000;
-    --text-link: hsl(214, 46%, 67%);
-    --header-primary: #000000;
-    --header-secondary: #000000;
+    --background-accent: #FFD9E5; /* Example femboy color */
+    --background-floating: #FFD9E5; /* Example femboy color */
+    --text-normal: #000000; /* Black text color */
+    --text-link: hsl(214, 46%, 67%); /* Original link color */
+    --header-primary: #000000; /* Black header color */
+    --header-secondary: #000000; /* Black secondary header color */
     /* Icons & Banners */
-}
-	--priscord-home-icon: url(https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/logo.svg);
-	--background-image: url('https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/background/prism-background.svg');
 }
 
 .homeIcon-r0w4ny path {
 	fill: transparent;
 }
+
 .homeIcon-r0w4ny {
 	background-color: #FFD9E5; /* Example femboy color */
 }
