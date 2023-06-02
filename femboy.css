@@ -1,15 +1,11 @@
 /**
 	* @name FemboyTheme
-	* @description Transparency for the Discord client.
+	* @description Discord Theme
 	* @version 0
 	* @author TheCuteOwl
-	* @invite xsbNuYXBd5
-	* @donate https://paypal.me/Lylythii
-	* @patreon https://patreon.com/Lylythii
 	* @source https://github.com/TheCuteOwl/FemboyTheme/edit/main/femboy.css
 	* @updateUrl https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Priscord/Priscord.theme.css
 	* Based on Priscord
-	Prism's Branding; https://prismlauncher.org/wiki/branding/
 */
 #app-mount .bg-1QIAus {
 	background: var(--background-image);
@@ -70,7 +66,7 @@
 .channelTextArea-2ACwbY textarea {
 	background-color: #f9d3ea; /* Light Pink */
 	border: 1px solid #e3a1c2; /* Lighter Pink */
-	color: #000000;
+	color: #000000; /* Black */
 }
 
 .channelTextArea-2ACwbY textarea:focus {
