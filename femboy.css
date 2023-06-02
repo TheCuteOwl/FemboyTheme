@@ -9,12 +9,8 @@
 	* @source https://github.com/TheCuteOwl/FemboyTheme/edit/main/femboy.css
 	* @updateUrl https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Priscord/Priscord.theme.css
 	* Based on Priscord
-*/
-
-/*
 	Prism's Branding; https://prismlauncher.org/wiki/branding/
 */
-
 #app-mount .bg-1QIAus {
 	background: var(--background-image);
 	background-position: var(--background-image-position, center);
