@@ -1,3 +1,2 @@
 # FemboyTheme
-Hmm, it's in the name btw
-DON'T USE IT RIGHT NOW
+There is a lot of problem, i will accept most of the requests Pull Requests ;)
