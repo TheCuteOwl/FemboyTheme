@@ -1,133 +1,72 @@
 /**
- * @name BetterPriscord
- * @description Customized Discord theme based on PrismLauncher's Priscord theme.
- * @version 0.1.0
- * @author [Your Name]
- * @website [Your Website]
- * @source [Your CSS URL]
- */
+	* @name FemboyTheme
+	* @description Transparency for the Discord client.
+	* @version 0
+	* @author TheCuteOwl
+	* @invite xsbNuYXBd5
+	* @donate https://paypal.me/Lylythii
+	* @patreon https://patreon.com/Lylythii
+	* @source https://github.com/TheCuteOwl/FemboyTheme/edit/main/femboy.css
+	* @updateUrl https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Priscord/Priscord.theme.css
+  * Based of Priscord
+*/
 
-/* MAIN BACKGROUND */
-.app {
-  background-image: url('https://example.com/background-image.jpg');
-  background-size: cover;
+/*
+	Prism's Branding; https://prismlauncher.org/wiki/branding/
+*/
+
+#app-mount .bg-1QIAus {
+	background: var(--background-image);
+	background-position: var(--background-image-position, center);
+	background-size: var(--background-image-size, cover);
 }
 
-/* CHAT AREA BACKGROUND */
-.chat-3bRxxu {
-  background-color: rgba(21, 24, 28, 0.91);
+/* ToDo: Separate themes for Light & Dark Prism colour schemes? */
+:root,
+.theme-dark,
+.theme-light {
+    --background-primary: #FFD9E5;    /* Solid Colour; #FFD9E5 | Example femboy color */
+    --background-secondary: #FCE4EC;
+    --background-secondary-alt: #FCE4EC;
+    --background-tertiary: transparent;
+    --background-accent: #F5F5F5;
+    --background-floating: #FFD9E5;
+    --text-normal: #000000;
+    --text-link: hsl(214, 46%, 67%);
+    --header-primary: #000000;
+    --header-secondary: #000000;
+    /* Icons & Banners */
+}
+	--priscord-home-icon: url(https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/logo.svg);
+	--background-image: url('https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/background/prism-background.svg');
 }
 
-/* MESSAGE BACKGROUND */
-.message-2qnXI6 {
-  background-color: rgba(33, 36, 43, 0.57);
+.homeIcon-r0w4ny path {
+	fill: transparent;
+}
+.homeIcon-r0w4ny {
+  background: var(--priscord-home-icon) center/cover no-repeat;
+  min-width: 50px;
+  min-height: 50px;
+}
+.homeIcon-r0w4ny {
+	background-color: #15181c;
 }
 
-/* MESSAGE AUTHOR NAME COLOR */
-.message-2qnXI6 .header-23xsNx {
-  color: #ffffff;
+
+/* Scroller Borders */
+.scroller-1bVxF5 {
+	border: 3px solid #202225;
 }
 
-/* MESSAGE CONTENT COLOR */
-.message-2qnXI6 .markup-2BOw-j {
-  color: #ffffff;
-}
-
-/* MESSAGE TIMESTAMP COLOR */
-.message-2qnXI6 .timestamp-3ZCmNB {
-  color: #e0e0e0;
-}
-
-/* CHANNELS LIST BACKGROUND */
-.sidebar-2K8pFh {
-  background-color: #21242b90;
-}
-
-/* CHANNELS LIST ITEM COLOR */
-.sidebar-2K8pFh .name-3_Dsmg {
-  color: #ffffff;
-}
-
-/* CHANNELS LIST ITEM HOVER COLOR */
-.sidebar-2K8pFh .name-3_Dsmg:hover {
-  color: #e0e0e0;
-}
-
-/* USER LIST BACKGROUND */
-.membersWrap-2h-GB4 {
-  background-color: #21242b90;
-}
-
-/* USER LIST USERNAME COLOR */
-.membersWrap-2h-GB4 .nameTag-m8r81H {
-  color: #ffffff;
-}
-
-/* USER LIST USERNAME HOVER COLOR */
-.membersWrap-2h-GB4 .nameTag-m8r81H:hover {
-  color: #e0e0e0;
-}
-
-/* USER LIST STATUS ICON COLOR */
-.membersWrap-2h-GB4 .avatar-1BDn8e:after {
-  background-color: #754C9490;
-}
-
-/* USER LIST STATUS ICON HOVER COLOR */
-.membersWrap-2h-GB4 .avatar-1BDn8e:hover:after {
-  background-color: #e0e0e0;
-}
-
-/* SERVER NAME COLOR */
-.guildIcon-3CWBqJ .acronym-1iTMF-,
-.headerText-1-kAdW {
-  color: #ffffff;
-}
-
-/* SERVER NAME HOVER COLOR */
-.guildIcon-3CWBqJ .acronym-1iTMF-:hover,
-.headerText-1-kAdW:hover {
-  color: #e0e0e0;
-}
-
-/* MENTION HIGHLIGHT BACKGROUND */
-.divider-3FBTu8,
-.mention-2KCpZ8 {
-  background-color: rgba(255, 152, 205, 0.5);
-}
-
-/* MENTION HIGHLIGHT TEXT COLOR */
-.mention-2KCpZ8 .mentionInner-3bC2p9 {
-  color: #ffffff;
-}
-
-/* SCROLLBAR STYLING */
-/* These styles apply to the channel and user lists */
-.scroller-2FKFPG {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(255, 152, 205, 0.7) rgba(0, 0, 0, 0.4);
-}
-
-.scroller-2FKFPG::-webkit-scrollbar {
-  width: 8px;
-}
-
-.scroller-2FKFPG::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 152, 205, 0.7);
-  border-radius: 4px;
-}
 
 /* Create/Join Server */
-.text-PdAsFQ,
-.defaultColor-1EVLSt {
-  color: #ffffff;
+.text-PdAsFQ, .defaultColor-1EVLSt {
+	color: #ffffff;
 }
-
-.container-1Lk8p7,
-.footer-31IekZ {
-  background-color: #15181c;
+.container-1Lk8p7, .footer-31IekZ {
+	background-color: #15181c;
 }
-
 .sampleLink-5BWNy9 {
-  color: hsl(214, 46%, 67%);
+	color: hsl(214, 46%, 67%);
 }
